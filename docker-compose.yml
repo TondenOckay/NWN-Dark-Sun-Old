@@ -1,0 +1,13 @@
+version: '3'
+services:
+  nwnxee-server:
+    image: nwnxee/unified:latest
+    env_file: ${PWD-.}/config/nwserver.env
+    stdin_open: true
+    tty: true
+    volumes:
+      - ${PWD-.}/logs:/nwn/run/logs.0
+      - ${PWD-.}/server/:/nwn/home
+    restart: always
+    ports:
+      - "5121:5121/udp"

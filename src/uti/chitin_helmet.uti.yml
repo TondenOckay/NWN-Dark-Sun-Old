@@ -1,0 +1,57 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 17}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 102}
+Cloth2Color: {type: byte, value: 95}
+Comment: {type: cexostr, value: '"The Dunmer of Morrowind construct chitin armor out
+    of the shells of native insects layered with resinous glues."'}
+Cost: {type: dword, value: 1257}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: 'Chitin armor is made from the carapace of native insects and held together
+      by resinous glues. '
+Description:
+  type: cexolocstr
+  value: {}
+Identified: {type: byte, value: 0}
+Leather1Color: {type: byte, value: 83}
+Leather2Color: {type: byte, value: 93}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Chitin Helmet
+Metal1Color: {type: byte, value: 128}
+Metal2Color: {type: byte, value: 30}
+ModelPart1: {type: byte, value: 95}
+PaletteID: {type: byte, value: 9}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 10}
+    CostValue: {type: word, value: 5}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 11}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 1}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: Chitin_Helmet}
+TemplateResRef: {type: resref, value: chitin_helmet}

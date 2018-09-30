@@ -1,0 +1,33 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 2970}
+BaseItem: {type: int, value: 53}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: '1'}
+Cost: {type: dword, value: 3000}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value: {}
+Description:
+  type: cexolocstr
+  value: {}
+Identified: {type: byte, value: 1}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 1547
+  value:
+    0: Steel Scimitar
+ModelPart1: {type: byte, value: 19}
+ModelPart2: {type: byte, value: 19}
+ModelPart3: {type: byte, value: 19}
+PaletteID: {type: byte, value: 37}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value: []
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: DSW_steelscimitar}
+TemplateResRef: {type: resref, value: wswsc002}

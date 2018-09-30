@@ -1,0 +1,333 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: ITP
+__struct_id: 4294967295
+MAIN:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 7}
+    STRREF: {type: dword, value: 6783}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 22}
+    STRREF: {type: dword, value: 111663}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 6}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: corpse}
+        RESREF: {type: resref, value: invis_corpse_bdy}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: corpse}
+        RESREF: {type: resref, value: invis_corpse_bon}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: corpse}
+        RESREF: {type: resref, value: invis_corpse_obj}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: corpse}
+        RESREF: {type: resref, value: invis_corpse_pch}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: corpse}
+        RESREF: {type: resref, value: invis_corpse_pot}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: corpse}
+        RESREF: {type: resref, value: invis_corpse_scr}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: corpse}
+        RESREF: {type: resref, value: invis_corpse_tre}
+    STRREF: {type: dword, value: 6782}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 8}
+    STRREF: {type: dword, value: 6784}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 9}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Gate}
+        RESREF: {type: resref, value: miscellaneous006}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Gate}
+        RESREF: {type: resref, value: miscellaneous007}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Wall}
+        RESREF: {type: resref, value: miscellaneous001}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Wall}
+        RESREF: {type: resref, value: miscellaneous002}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Wall}
+        RESREF: {type: resref, value: miscellaneous003}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Wall}
+        RESREF: {type: resref, value: miscellaneous004}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Wall}
+        RESREF: {type: resref, value: miscellaneous005}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Wall}
+        RESREF: {type: resref, value: miscellaneous008}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Wall}
+        RESREF: {type: resref, value: miscellaneous009}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Wall}
+        RESREF: {type: resref, value: miscellaneous010}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Wall}
+        RESREF: {type: resref, value: miscellaneous011}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: City Wall}
+        RESREF: {type: resref, value: miscellaneous012}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: 'Invisible Wall (blocks movement, visible for
+            easy placement until initial state is set to "Deactivated").'}
+        RESREF: {type: resref, value: plc_inviswal001}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Mekillot Ram Ladder}
+        RESREF: {type: resref, value: miscellaneous134}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Mekillot Ram Steps}
+        RESREF: {type: resref, value: miscellaneous013}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: cityrubble002}
+        STRREF: {type: dword, value: 68810}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: cityrubble003}
+        STRREF: {type: dword, value: 68810}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: cityrubble004}
+        STRREF: {type: dword, value: 68810}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: cityrubble005}
+        STRREF: {type: dword, value: 68810}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: cityrubble006}
+        STRREF: {type: dword, value: 68810}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: ds_rubble005}
+        STRREF: {type: dword, value: 111019}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: plc_tent_b001}
+        STRREF: {type: dword, value: 83428}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: tent_b002}
+        STRREF: {type: dword, value: 83428}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: tent_b003}
+        STRREF: {type: dword, value: 83428}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: tent_b004}
+        STRREF: {type: dword, value: 83428}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: plc_wagon001}
+        STRREF: {type: dword, value: 14611}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: wagon002}
+        STRREF: {type: dword, value: 14611}
+    STRREF: {type: dword, value: 1592}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 10}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: throneevil001}
+        STRREF: {type: dword, value: 14741}
+    STRREF: {type: dword, value: 6785}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 11}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: boulder001}
+        STRREF: {type: dword, value: 52998}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Fallen Tree}
+        RESREF: {type: resref, value: blueprint008}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Oasis Tree}
+        RESREF: {type: resref, value: tree001}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Water Well}
+        RESREF: {type: resref, value: h2_waterwell}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Wezer Dune}
+        RESREF: {type: resref, value: h2_waterwell002}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Wezer enterance}
+        RESREF: {type: resref, value: h2_waterwell001}
+    STRREF: {type: dword, value: 6786}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 12}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Active Spawn}
+        RESREF: {type: resref, value: spawn_ban_a}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Deactivated Spawn}
+        RESREF: {type: resref, value: spawn_ban_d}
+    STRREF: {type: dword, value: 6787}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 14}
+    STRREF: {type: dword, value: 9122}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 15}
+    STRREF: {type: dword, value: 9128}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 0}
+        LIST:
+          type: list
+          value:
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: ASG SpawnKit Area Config (Optional)}
+            RESREF: {type: resref, value: asgspawnkitareac}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: ASG Spawnkit No Auto Reveal Map}
+            RESREF: {type: resref, value: asg_noautomap}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: Esperweed}
+            RESREF: {type: resref, value: esperweed}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: Mekillot Ram}
+            RESREF: {type: resref, value: mekillotram}
+        STRREF: {type: dword, value: 6688}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 1}
+        STRREF: {type: dword, value: 6689}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 2}
+        STRREF: {type: dword, value: 6690}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 3}
+        STRREF: {type: dword, value: 6691}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 4}
+        LIST:
+          type: list
+          value:
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: Campfire}
+            RESREF: {type: resref, value: h2_campfire}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: Death Corpse}
+            RESREF: {type: resref, value: h2_deathcorpse}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: Death Corpse}
+            RESREF: {type: resref, value: h2_deathcorpse2}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: Dropped Items}
+            RESREF: {type: resref, value: h2_lootbag}
+        STRREF: {type: dword, value: 6692}
+    STRREF: {type: dword, value: 6687}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 13}
+    STRREF: {type: dword, value: 6788}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 16}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 17}
+        STRREF: {type: dword, value: 62485}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 19}
+        STRREF: {type: dword, value: 5836}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 21}
+        STRREF: {type: dword, value: 67585}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 20}
+        STRREF: {type: dword, value: 53151}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 18}
+        STRREF: {type: dword, value: 67132}
+    STRREF: {type: dword, value: 66490}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 5}
+    STRREF: {type: dword, value: 6781}

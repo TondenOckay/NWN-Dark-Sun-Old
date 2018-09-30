@@ -1,0 +1,161 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTC
+__struct_id: 4294967295
+Appearance_Type: {type: word, value: 1018}
+BodyBag: {type: byte, value: 0}
+CRAdjust: {type: int, value: 0}
+Cha: {type: byte, value: 7}
+ChallengeRating: {type: float, value: 4.0}
+ClassList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 2
+    Class: {type: int, value: 12}
+    ClassLevel: {type: short, value: 4}
+Comment: {type: cexostr, value: "http://paizo.com/pathfinderRPG/prd/bestiary3/vulture.html\r\n\r\n--------------------------------------------------------------------------------------------------------------------------\r\n\r\nVulture,
+    Giant\r\n\r\nA wickedly hooked beak and an immense bald head draw attention from
+    this enormous scavenger's vast wingspan.\r\n\r\nGiant Vulture CR 4\r\n\r\nXP 1,200\r\n\r\nN
+    Large animal\r\n\r\nInit +2; Senses low-light vision, scent; Perception +14\r\n\r\nDefense\r\n\r\nAC
+    17, touch 11, flat-footed 15 (+2 Dex, +6 natural, –1 size)\r\n\r\nhp 42 (5d8+20)\r\n\r\nFort
+    +10, Ref +6, Will +3; +4 vs. disease\r\n\r\nOffense\r\n\r\nSpeed 10 ft., fly 50
+    ft. (average)\r\n\r\nMelee bite +9 (2d6+9 plus disease)\r\n\r\nSpace 10 ft.; Reach
+    5 ft.\r\n\r\nStatistics\r\n\r\nStr 22, Dex 15, Con 18, Int 2, Wis 15, Cha 7\r\n\r\nBase
+    Atk +3; CMB +10; CMD 22\r\n\r\nFeats Great Fortitude, Toughness, Weapon Focus
+    (bite)\r\n\r\nSkills Fly +7, Perception +14; Racial Modifiers +8 Perception\r\n\r\nSQ
+    diseased\r\n\r\nEcology\r\n\r\nEnvironment warm plains or hills\r\n\r\nOrganization
+    solitary, pair, or flock (3–8)\r\n\r\nTreasure none\r\n\r\nSpecial Abilities\r\n\r\nDiseased
+    (Ex) Due to their filthy eating habits and constant exposure to decaying flesh,
+    giant vultures are harbingers of disease—much more so than the standard vulture.
+    Any creature bitten by a giant vulture has a 10% chance of being exposed to filth
+    fever, blinding sickness, or a similar disease. Once this check is made, a victim
+    can no longer be infected by this particular giant vulture, though attacks by
+    different giant vultures are resolved normally and may result in multiple illnesses.
+    While vultures aren't immune to all diseases, they do gain a +4 racial bonus on
+    all saving throws against such ailments.\r\n\r\nLarger even than condors, giant
+    vultures dwell only in regions where carrion is both large and plentiful, such
+    as the primeval wildernesses where megafauna roam. They also flock to regions
+    torn by war, feasting on the dead with no concern for allegiance or race. Giant
+    vultures rarely wait for wounded creatures to finish dying before they feed, and
+    are much braver than most wild animals. A giant vulture, for example, wouldn't
+    think twice about swooping down on a heavily armored column of soldiers just to
+    snatch up a few wounded stragglers from the end of the line.\r\n\r\nA giant vulture
+    stands more than 13 feet tall, has a wingspan of over 30 feet, and weighs 500
+    to 600 pounds."}
+Con: {type: byte, value: 18}
+Conversation: {type: resref, value: ''}
+CurrentHitPoints: {type: short, value: 26}
+DecayTime: {type: dword, value: 5000}
+Deity: {type: cexostr, value: ''}
+Description:
+  type: cexolocstr
+  value:
+    0: A wickedly hooked beak and an immense bald head draw attention from this enormous
+      scavenger's vast wingspan.
+Dex: {type: byte, value: 15}
+Disarmable: {type: byte, value: 1}
+Equip_ItemList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 65536, EquippedRes: {type: resref,
+      value: giantvulturebeak}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 131072, EquippedRes: {type: resref,
+      value: vulture_hide}}
+FactionID: {type: word, value: 1}
+FeatList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1, Feat: {type: word, value: 14}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1, Feat: {type: word, value: 354}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1, Feat: {type: word, value: 40}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1, Feat: {type: word, value: 291}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1, Feat: {type: word, value: 289}}
+FirstName:
+  type: cexolocstr
+  value:
+    0: Vulture, giant
+Gender: {type: byte, value: 0}
+GoodEvil: {type: byte, value: 50}
+HitPoints: {type: short, value: 26}
+Int: {type: byte, value: 3}
+Interruptable: {type: byte, value: 1}
+IsImmortal: {type: byte, value: 0}
+IsPC: {type: byte, value: 0}
+LastName:
+  type: cexolocstr
+  value:
+    0: ''
+LawfulChaotic: {type: byte, value: 50}
+Lootable: {type: byte, value: 0}
+MaxHitPoints: {type: short, value: 46}
+NaturalAC: {type: byte, value: 6}
+NoPermDeath: {type: byte, value: 1}
+PaletteID: {type: byte, value: 6}
+PerceptionRange: {type: byte, value: 11}
+Phenotype: {type: int, value: 0}
+Plot: {type: byte, value: 0}
+PortraitId: {type: word, value: 2162}
+Race: {type: byte, value: 8}
+ScriptAttacked: {type: resref, value: x2_def_attacked}
+ScriptDamaged: {type: resref, value: x2_def_ondamage}
+ScriptDeath: {type: resref, value: x2_def_ondeath}
+ScriptDialogue: {type: resref, value: x2_def_onconv}
+ScriptDisturbed: {type: resref, value: x2_def_ondisturb}
+ScriptEndRound: {type: resref, value: x2_def_endcombat}
+ScriptHeartbeat: {type: resref, value: x2_def_heartbeat}
+ScriptOnBlocked: {type: resref, value: x2_def_onblocked}
+ScriptOnNotice: {type: resref, value: x2_def_percept}
+ScriptRested: {type: resref, value: x2_def_rested}
+ScriptSpawn: {type: resref, value: x2_def_spawn}
+ScriptSpellAt: {type: resref, value: x2_def_spellcast}
+ScriptUserDefine: {type: resref, value: x2_def_userdef}
+SkillList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 14}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 6}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 14}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+SoundSetFile: {type: word, value: 77}
+SpecAbilityList:
+  type: list
+  value: []
+StartingPackage: {type: byte, value: 74}
+Str: {type: byte, value: 22}
+Subrace: {type: cexostr, value: ''}
+Tag: {type: cexostr, value: vulture_giant}
+Tail_New: {type: dword, value: 0}
+TemplateList:
+  type: list
+  value: []
+TemplateResRef: {type: resref, value: vulture_giant}
+WalkRate: {type: int, value: 7}
+Wings_New: {type: dword, value: 0}
+Wis: {type: byte, value: 15}
+fortbonus: {type: short, value: 2}
+refbonus: {type: short, value: 0}
+willbonus: {type: short, value: 0}

@@ -1,0 +1,21 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTW
+__struct_id: 4294967295
+Appearance: {type: byte, value: 1}
+Comment: {type: cexostr, value: ''}
+Description:
+  type: cexolocstr
+  value: {}
+HasMapNote: {type: byte, value: 0}
+LinkedTo: {type: cexostr, value: ''}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: H2_COREDATAPOINT
+MapNote:
+  type: cexolocstr
+  value: {}
+MapNoteEnabled: {type: byte, value: 0}
+PaletteID: {type: byte, value: 5}
+Tag: {type: cexostr, value: H2_COREDATAPOINT}
+TemplateResRef: {type: resref, value: h2_coredatapoint}
