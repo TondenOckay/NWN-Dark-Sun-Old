@@ -1,0 +1,32 @@
+*.ncs
+
+# Project files #
+###################
+cache
+server
+homedir
+installdir
+resman
+config.yml
+metrics
+mysql-db
+redis
+logs
+lua
+
+# Other #
+###################
+*.swp
+*.sublime-workspace
+tmp
+NWN
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

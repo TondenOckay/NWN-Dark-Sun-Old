@@ -1,0 +1,183 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTM
+__struct_id: 4294967295
+BM_MarkDown: {type: int, value: 25}
+BlackMarket: {type: byte, value: 0}
+Comment: {type: cexostr, value: Chapter 1}
+ID: {type: byte, value: 5}
+IdentifyPrice: {type: int, value: 100}
+LocName:
+  type: cexolocstr
+  str_ref: 14813
+  value:
+    0: Deadly Deals
+MarkDown: {type: int, value: 35}
+MarkUp: {type: int, value: 150}
+MaxBuyPrice: {type: int, value: -1}
+OnOpenStore: {type: resref, value: ''}
+OnStoreClosed: {type: resref, value: ''}
+ResRef: {type: resref, value: deadlydeals01}
+StoreGold: {type: int, value: -1}
+StoreList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ItemList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        InventoryRes: {type: resref, value: item}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 1
+        InventoryRes: {type: resref, value: juradaielvena001}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 2
+        InventoryRes: {type: resref, value: juradaielvenarmo}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 3
+        InventoryRes: {type: resref, value: robeofjuradaichi}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 4
+        InventoryRes: {type: resref, value: resherekmerch001}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 5
+        InventoryRes: {type: resref, value: resherekmerchant}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 3}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 4
+    ItemList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        InventoryRes: {type: resref, value: bonedagger013}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 1
+        InventoryRes: {type: resref, value: bonedagger011}
+        Repos_PosX: {type: word, value: 1}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 2
+        InventoryRes: {type: resref, value: obsidiandagge013}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 3
+        InventoryRes: {type: resref, value: obsidiandagge011}
+        Repos_PosX: {type: word, value: 3}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 4
+        InventoryRes: {type: resref, value: dswsteeldagger01}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 5
+        InventoryRes: {type: resref, value: obsidiandagge012}
+        Repos_PosX: {type: word, value: 5}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 6
+        InventoryRes: {type: resref, value: bonelongsword011}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 7
+        InventoryRes: {type: resref, value: obsidianlongs011}
+        Repos_PosX: {type: word, value: 7}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 8
+        InventoryRes: {type: resref, value: wswls002}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 9
+        InventoryRes: {type: resref, value: woodlongsword011}
+        Repos_PosX: {type: word, value: 9}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 10
+        InventoryRes: {type: resref, value: bonescimitar011}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 1}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 11
+        InventoryRes: {type: resref, value: obsidianscimitar}
+        Repos_PosX: {type: word, value: 1}
+        Repos_Posy: {type: word, value: 1}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 12
+        InventoryRes: {type: resref, value: wswsc002}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 1}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 13
+        InventoryRes: {type: resref, value: woodscimitar011}
+        Repos_PosX: {type: word, value: 3}
+        Repos_Posy: {type: word, value: 1}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 14
+        InventoryRes: {type: resref, value: boneshortswor011}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 1}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 15
+        InventoryRes: {type: resref, value: obsidianshort011}
+        Repos_PosX: {type: word, value: 5}
+        Repos_Posy: {type: word, value: 1}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 16
+        InventoryRes: {type: resref, value: wswss002}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 3}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 17
+        InventoryRes: {type: resref, value: woodshortswor011}
+        Repos_PosX: {type: word, value: 5}
+        Repos_Posy: {type: word, value: 3}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 18
+        InventoryRes: {type: resref, value: lhwristrazor01}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 4}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 19
+        InventoryRes: {type: resref, value: rhwristrazor01}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 4}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 20
+        InventoryRes: {type: resref, value: lhwristrazor002}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 4}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 21
+        InventoryRes: {type: resref, value: rhwristrazor002}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 4}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 2}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 3}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1}
+Tag: {type: cexostr, value: DeadlyDeals_001}
+WillNotBuy:
+  type: list
+  value: []
+WillOnlyBuy:
+  type: list
+  value: []

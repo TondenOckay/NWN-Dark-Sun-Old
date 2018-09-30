@@ -1,0 +1,166 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTC
+__struct_id: 4294967295
+Appearance_Type: {type: word, value: 1030}
+BodyBag: {type: byte, value: 0}
+CRAdjust: {type: int, value: 0}
+Cha: {type: byte, value: 10}
+ChallengeRating: {type: float, value: 3.0}
+ClassList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 2
+    Class: {type: int, value: 23}
+    ClassLevel: {type: short, value: 3}
+Comment: {type: cexostr, value: "http://www.dandwiki.com/wiki/Giant_owl\r\n---------------------------------------------------------------------------------------------------------------------------\r\n\r\nOWL,
+    GIANT\r\nSize/Type: \tLarge Magical Beast\r\nHit Dice: \t4d10+4 (26 hp)\r\nInitiative:
+    \t+3\r\nSpeed: \t10 ft. (2 squares), fly 70 ft. (average)\r\nArmor Class: \t15
+    (–1 size, +3 Dex, +3 natural), touch 12, flat-footed 12\r\nBase Attack/Grapple:
+    \t+4/+12\r\nAttack: \tClaw +7 melee (1d6+4)\r\nFull Attack: \t2 claws +7 melee
+    (1d6+4) and bite +2 melee (1d8+2)\r\nSpace/Reach: \t10 ft./5 ft.\r\nSpecial Attacks:
+    \t—\r\nSpecial Qualities: \tSuperior low-light vision\r\nSaves: \tFort +5, Ref
+    +7, Will +3\r\nAbilities: \tStr 18, Dex 17, Con 12, Int 10, Wis 14, Cha 10\r\nSkills:
+    \tKnowledge (nature) +2, Listen +17, Move Silently +8*, Spot +10\r\nFeats: \tAlertness,
+    Wingover\r\nEnvironment: \tTemperate forests\r\nOrganization: \tSolitary, pair,
+    or company (3–5)\r\nChallenge Rating: \t3\r\nTreasure: \tNone\r\nAlignment: \tUsually
+    neutral good\r\nAdvancement: \t5–8 HD (Large); 9–12 HD (Huge)\r\nLevel Adjustment:
+    \t+2 (cohort)\r\n\r\nGiant owls are nocturnal birds of prey, feared for their
+    ability to hunt and attack in near silence. They are intelligent, and though naturally
+    suspicious, sometimes associate with good creatures. A typical giant owl stands
+    about 9 feet tall, has a wingspan of up to 20 feet, and resembles its smaller
+    cousins in nearly every way except size.\r\n\r\nGiant owls speak Common and Sylvan.\r\nCOMBAT\r\n\r\nA
+    giant owl attacks by gliding silently just a few feet above its prey and plunging
+    to strike when directly overhead.\r\n\r\nSuperior Low-Light Vision (Ex): A giant
+    owl can see five times as far as a human can in dim light.\r\n\r\nSkills: giant
+    owls have a +8 racial bonus on Listen checks and a +4 racial bonus on Spot checks.\r\n\r\n
+    \   When in flight, giant owls gain a +8 bonus on Move Silently checks.\r\n\r\nTRAINING
+    A GIANT OWL\r\n\r\nAlthough intelligent, a giant owl requires training before
+    it can bear a rider in combat. To be trained, a giant owl must have a friendly
+    attitude toward the trainer (this can be achieved through a successful Diplomacy
+    check). Training a friendly giant owl requires six weeks of work and a DC 25 Handle
+    Animal check. Riding a giant owl requires an exotic saddle. A giant owl can fight
+    while carrying a rider, but the rider cannot also attack unless he or she succeeds
+    on a Ride check.\r\n\r\nGiant owl eggs are worth 2,500 gp apiece on the open market,
+    while chicks are worth 4,000 gp each. Professional trainers charge 1,000 gp to
+    rear or train a giant owl.\r\n\r\nCarrying Capacity: A light load for a giant
+    owl is up to 300 pounds; a medium load, 301–600 pounds; and a heavy load, 601–900
+    pounds. "}
+Con: {type: byte, value: 12}
+Conversation: {type: resref, value: ''}
+CurrentHitPoints: {type: short, value: 23}
+DecayTime: {type: dword, value: 5000}
+Deity: {type: cexostr, value: ''}
+Description:
+  type: cexolocstr
+  value:
+    0: This enormous owl has a silent gracefulness and wisdom about it despite its
+      considerable size.
+Dex: {type: byte, value: 17}
+Disarmable: {type: byte, value: 1}
+Equip_ItemList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 16384, EquippedRes: {type: resref,
+      value: nw_it_crewpsp005}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 32768, EquippedRes: {type: resref,
+      value: nw_it_crewpsp005}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 65536, EquippedRes: {type: resref,
+      value: nw_it_crewps010}}
+FactionID: {type: word, value: 4}
+FeatList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1, Feat: {type: word, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1, Feat: {type: word, value: 206}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1, Feat: {type: word, value: 354}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1, Feat: {type: word, value: 289}}
+FirstName:
+  type: cexolocstr
+  value:
+    0: Owl, giant
+Gender: {type: byte, value: 4}
+GoodEvil: {type: byte, value: 100}
+HitPoints: {type: short, value: 23}
+Int: {type: byte, value: 10}
+Interruptable: {type: byte, value: 1}
+IsImmortal: {type: byte, value: 0}
+IsPC: {type: byte, value: 0}
+LastName:
+  type: cexolocstr
+  value:
+    0: ''
+LawfulChaotic: {type: byte, value: 50}
+Lootable: {type: byte, value: 0}
+MaxHitPoints: {type: short, value: 26}
+NaturalAC: {type: byte, value: 3}
+NoPermDeath: {type: byte, value: 1}
+PaletteID: {type: byte, value: 49}
+PerceptionRange: {type: byte, value: 11}
+Phenotype: {type: int, value: 0}
+Plot: {type: byte, value: 0}
+PortraitId: {type: word, value: 2167}
+Race: {type: byte, value: 19}
+ScriptAttacked: {type: resref, value: x2_def_attacked}
+ScriptDamaged: {type: resref, value: x2_def_ondamage}
+ScriptDeath: {type: resref, value: x2_def_ondeath}
+ScriptDialogue: {type: resref, value: x2_def_onconv}
+ScriptDisturbed: {type: resref, value: x2_def_ondisturb}
+ScriptEndRound: {type: resref, value: x2_def_endcombat}
+ScriptHeartbeat: {type: resref, value: x2_def_heartbeat}
+ScriptOnBlocked: {type: resref, value: x2_def_onblocked}
+ScriptOnNotice: {type: resref, value: x2_def_percept}
+ScriptRested: {type: resref, value: x2_def_rested}
+ScriptSpawn: {type: resref, value: x2_def_spawn}
+ScriptSpellAt: {type: resref, value: x2_def_spellcast}
+ScriptUserDefine: {type: resref, value: x2_def_userdef}
+SkillList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 2}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 17}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 2}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 8}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 2}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 10}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0, Rank: {type: byte, value: 0}}
+SoundSetFile: {type: word, value: 38}
+SpecAbilityList:
+  type: list
+  value: []
+StartingPackage: {type: byte, value: 85}
+Str: {type: byte, value: 18}
+Subrace: {type: cexostr, value: ''}
+Tag: {type: cexostr, value: Owl_Giant}
+Tail_New: {type: dword, value: 0}
+TemplateList:
+  type: list
+  value: []
+TemplateResRef: {type: resref, value: owl_giant}
+WalkRate: {type: int, value: 7}
+Wings_New: {type: dword, value: 0}
+Wis: {type: byte, value: 14}
+fortbonus: {type: short, value: 1}
+refbonus: {type: short, value: 1}
+willbonus: {type: short, value: 0}

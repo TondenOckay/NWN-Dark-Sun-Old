@@ -1,0 +1,35 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTT
+__struct_id: 4294967295
+AutoRemoveKey: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cursor: {type: byte, value: 0}
+DisarmDC: {type: byte, value: 10}
+Faction: {type: dword, value: 1}
+HighlightHeight: {type: float, value: 3.0}
+KeyName: {type: cexostr, value: ''}
+LinkedTo: {type: cexostr, value: ''}
+LinkedToFlags: {type: byte, value: 0}
+LoadScreenID: {type: word, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Rest Zone Trigger
+OnClick: {type: resref, value: ''}
+OnDisarm: {type: resref, value: ''}
+OnTrapTriggered: {type: resref, value: ''}
+PaletteID: {type: byte, value: 6}
+PortraitId: {type: word, value: 0}
+ScriptHeartbeat: {type: resref, value: ''}
+ScriptOnEnter: {type: resref, value: h2_resttrigent_e}
+ScriptOnExit: {type: resref, value: h2_resttrigext_e}
+ScriptUserDefine: {type: resref, value: ''}
+Tag: {type: cexostr, value: h2_resttrigger}
+TemplateResRef: {type: resref, value: h2_resttrigger1}
+TrapDetectDC: {type: byte, value: 10}
+TrapDetectable: {type: byte, value: 1}
+TrapDisarmable: {type: byte, value: 1}
+TrapFlag: {type: byte, value: 0}
+TrapOneShot: {type: byte, value: 1}
+TrapType: {type: byte, value: 0}
+Type: {type: int, value: 0}

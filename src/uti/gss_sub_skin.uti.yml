@@ -1,0 +1,44 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 73}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: "When you paint the GSS Subrace NPC Template creature
+    into the module, edit it's skin/hide, add all of the properties that you want
+    applied to the PC's skin....\r\n\r\nThe PC will then have all of those properties,
+    simple enough, no?"}
+Cost: {type: dword, value: 25000}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value: {}
+Description:
+  type: cexolocstr
+  value:
+    0: Please be sure to read the comments!
+Identified: {type: byte, value: 1}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 12940
+  value:
+    0: GSS Subrace Properties
+ModelPart1: {type: byte, value: 1}
+PaletteID: {type: byte, value: 53}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 10}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 73}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: GSS_SUB_SKIN}
+TemplateResRef: {type: resref, value: gss_sub_skin}
