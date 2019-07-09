@@ -19,7 +19,7 @@ Revision Summary:
 //A user defined constant that specifies the name of the campaign associated
 //with external database variable storage. This value will be used whenever
 //any of the h2_Get\SetExternal functions are called and the campaign name is not specified.
-const string H2_DEFAULT_CAMPAIGN_NAME = "H2_TESTMODULE";
+const string H2_DEFAULT_CAMPAIGN_NAME = "H2_DARKSUN";
 
 void h2_InitializeDatabase()
 {

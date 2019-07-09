@@ -28,7 +28,6 @@ LocName:
     0: Dropped Items
 Lockable: {type: byte, value: 1}
 Locked: {type: byte, value: 0}
-OnClick: {type: resref, value: ''}
 OnClosed: {type: resref, value: ''}
 OnDamaged: {type: resref, value: ''}
 OnDeath: {type: resref, value: ''}

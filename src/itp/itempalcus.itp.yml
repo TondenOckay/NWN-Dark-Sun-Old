@@ -12,85 +12,22 @@ MAIN:
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 5}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Robe}
-            RESREF: {type: resref, value: robe}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Slave Cloth's}
-            RESREF: {type: resref, value: item}
         STRREF: {type: dword, value: 186}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 8}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Plate}
-            RESREF: {type: resref, value: plate}
         STRREF: {type: dword, value: 4818}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 9}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Chitin Helmet}
-            RESREF: {type: resref, value: chitin_helmet}
         STRREF: {type: dword, value: 6739}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 6}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Chitin Armor}
-            RESREF: {type: resref, value: chitin_armor}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Halfling Armor}
-            RESREF: {type: resref, value: halflingarmor}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Jura Dai Elven Armor}
-            RESREF: {type: resref, value: juradaielvena001}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Jura Dai Elven Armor}
-            RESREF: {type: resref, value: juradaielvenarmo}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Robe of Jura Dai Chief}
-            RESREF: {type: resref, value: robeofjuradaichi}
         STRREF: {type: dword, value: 4815}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 7}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            RESREF: {type: resref, value: aarcl011}
-            STRREF: {type: dword, value: 12842}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Resherek Merchant House Armor}
-            RESREF: {type: resref, value: resherekmerch001}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Resherek Merchant House Armor}
-            RESREF: {type: resref, value: resherekmerchant}
         STRREF: {type: dword, value: 6669}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
@@ -108,13 +45,6 @@ MAIN:
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             ID: {type: byte, value: 10}
-            LIST:
-              type: list
-              value:
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                RESREF: {type: resref, value: ashsw002}
-                STRREF: {type: dword, value: 179}
             STRREF: {type: dword, value: 6741}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
@@ -134,28 +64,10 @@ MAIN:
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 13}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Phoenix_Talon}
-            RESREF: {type: resref, value: phoenix_talon}
         STRREF: {type: dword, value: 6744}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 63}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Giant vulture beak}
-            RESREF: {type: resref, value: giantvulturebeak}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Roc vulture beak}
-            RESREF: {type: resref, value: rocvulturebeak}
         STRREF: {type: dword, value: 6831}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
@@ -164,25 +76,6 @@ MAIN:
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 14}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Avangion_30_properties}
-            RESREF: {type: resref, value: avangion_30_prop}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Houhou Properties}
-            RESREF: {type: resref, value: hououproperties}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Phoenix_hide}
-            RESREF: {type: resref, value: phoenix_hide}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Vulture_hide}
-            RESREF: {type: resref, value: vulture_hide}
         STRREF: {type: dword, value: 6809}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
@@ -218,13 +111,6 @@ MAIN:
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             ID: {type: byte, value: 18}
-            LIST:
-              type: list
-              value:
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                RESREF: {type: resref, value: maarcl056}
-                STRREF: {type: dword, value: 13802}
             STRREF: {type: dword, value: 6747}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
@@ -285,13 +171,6 @@ MAIN:
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 57}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: PC Stone}
-            RESREF: {type: resref, value: ls_stored_loc}
         STRREF: {type: dword, value: 6812}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
@@ -331,20 +210,8 @@ MAIN:
             RESREF: {type: resref, value: h2_lantern}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
-            RESREF: {type: resref, value: it_mmidmisc006}
-            STRREF: {type: dword, value: 13378}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
             NAME: {type: cexostr, value: Oil Flask}
             RESREF: {type: resref, value: h2_oilflask}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Rod of Spawn Banners}
-            RESREF: {type: resref, value: spawn_ban_rod}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Stone}
-            RESREF: {type: resref, value: stone}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             NAME: {type: cexostr, value: Torch}
@@ -362,21 +229,6 @@ MAIN:
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
     ID: {type: byte, value: 54}
-    LIST:
-      type: list
-      value:
-      - !nwn-lib.elv.es,2013-07:struct
-        __struct_id: 0
-        NAME: {type: cexostr, value: Cosmic Awareness}
-        RESREF: {type: resref, value: ps_cosaware_it}
-      - !nwn-lib.elv.es,2013-07:struct
-        __struct_id: 0
-        NAME: {type: cexostr, value: Imbued Gem}
-        RESREF: {type: resref, value: ps_receptacle_it}
-      - !nwn-lib.elv.es,2013-07:struct
-        __struct_id: 0
-        NAME: {type: cexostr, value: Psychic Blade}
-        RESREF: {type: resref, value: ps_psychblade_it}
     STRREF: {type: dword, value: 6808}
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
@@ -412,22 +264,6 @@ MAIN:
       value:
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
-        NAME: {type: cexostr, value: GSS Subrace Properties}
-        RESREF: {type: resref, value: gss_sub_skin}
-      - !nwn-lib.elv.es,2013-07:struct
-        __struct_id: 0
-        NAME: {type: cexostr, value: GSS Subrace Properties}
-        RESREF: {type: resref, value: gss_sub_skin003}
-      - !nwn-lib.elv.es,2013-07:struct
-        __struct_id: 0
-        NAME: {type: cexostr, value: GSS Subrace Properties}
-        RESREF: {type: resref, value: gss_sub_skin004}
-      - !nwn-lib.elv.es,2013-07:struct
-        __struct_id: 0
-        NAME: {type: cexostr, value: GSS Subrace Properties}
-        RESREF: {type: resref, value: gss_sub_skin015}
-      - !nwn-lib.elv.es,2013-07:struct
-        __struct_id: 0
         NAME: {type: cexostr, value: Healing Skill}
         RESREF: {type: resref, value: h2_healwidget}
       - !nwn-lib.elv.es,2013-07:struct
@@ -452,24 +288,10 @@ MAIN:
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             ID: {type: byte, value: 27}
-            LIST:
-              type: list
-              value:
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Bone Tipped Arrow}
-                RESREF: {type: resref, value: bonetippedarrow}
             STRREF: {type: dword, value: 6757}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             ID: {type: byte, value: 28}
-            LIST:
-              type: list
-              value:
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Bone Tipped Bolt}
-                RESREF: {type: resref, value: bonetippedbolt}
             STRREF: {type: dword, value: 6758}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
@@ -506,33 +328,6 @@ MAIN:
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             ID: {type: byte, value: 34}
-            LIST:
-              type: list
-              value:
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Bone Bard's Friends}
-                RESREF: {type: resref, value: bonedagger013}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Bone Dagger}
-                RESREF: {type: resref, value: bonedagger011}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Obsidian Bard's Friends}
-                RESREF: {type: resref, value: obsidiandagge013}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Obsidian Dagger}
-                RESREF: {type: resref, value: obsidiandagge011}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Steel Dagger}
-                RESREF: {type: resref, value: dswsteeldagger01}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Wooden Dagger}
-                RESREF: {type: resref, value: obsidiandagge012}
             STRREF: {type: dword, value: 6765}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
@@ -541,75 +336,14 @@ MAIN:
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             ID: {type: byte, value: 36}
-            LIST:
-              type: list
-              value:
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Bone Longsword}
-                RESREF: {type: resref, value: bonelongsword011}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Obsidian Longsword}
-                RESREF: {type: resref, value: obsidianlongs011}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Steel Longsword}
-                RESREF: {type: resref, value: wswls002}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Wood Longsword}
-                RESREF: {type: resref, value: woodlongsword011}
             STRREF: {type: dword, value: 6767}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             ID: {type: byte, value: 37}
-            LIST:
-              type: list
-              value:
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: 'Bone Scimitar '}
-                RESREF: {type: resref, value: bonescimitar011}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Obsidian Scimitar}
-                RESREF: {type: resref, value: obsidianscimitar}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                RESREF: {type: resref, value: wswmsc006}
-                STRREF: {type: dword, value: 14381}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Steel Scimitar}
-                RESREF: {type: resref, value: wswsc002}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Wood Scimitar}
-                RESREF: {type: resref, value: woodscimitar011}
             STRREF: {type: dword, value: 6699}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             ID: {type: byte, value: 38}
-            LIST:
-              type: list
-              value:
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Bone Short Sword}
-                RESREF: {type: resref, value: boneshortswor011}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Obsidian Short Sword}
-                RESREF: {type: resref, value: obsidianshort011}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Steel Short Sword}
-                RESREF: {type: resref, value: wswss002}
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Wood Short Sword}
-                RESREF: {type: resref, value: woodshortswor011}
             STRREF: {type: dword, value: 6768}
         STRREF: {type: dword, value: 6763}
       - !nwn-lib.elv.es,2013-07:struct
@@ -645,25 +379,6 @@ MAIN:
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 47}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Bone Left Handed Wrist Razor}
-            RESREF: {type: resref, value: lhwristrazor01}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Bone Right Handed Wrist Razor}
-            RESREF: {type: resref, value: rhwristrazor01}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Steel Left Handed Wrist Razor}
-            RESREF: {type: resref, value: lhwristrazor002}
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Steel Right Handed Wrist Razor}
-            RESREF: {type: resref, value: rhwristrazor002}
         STRREF: {type: dword, value: 6776}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
@@ -686,13 +401,6 @@ MAIN:
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 51}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            NAME: {type: cexostr, value: Obsidan Spear}
-            RESREF: {type: resref, value: ds_obsidanspear1}
         STRREF: {type: dword, value: 489}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
@@ -702,24 +410,10 @@ MAIN:
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             ID: {type: byte, value: 43}
-            LIST:
-              type: list
-              value:
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Ashen Heavy Crossbow}
-                RESREF: {type: resref, value: ashenheavycrossb}
             STRREF: {type: dword, value: 6774}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0
             ID: {type: byte, value: 44}
-            LIST:
-              type: list
-              value:
-              - !nwn-lib.elv.es,2013-07:struct
-                __struct_id: 0
-                NAME: {type: cexostr, value: Ashen Longbow}
-                RESREF: {type: resref, value: ashenlongbow}
             STRREF: {type: dword, value: 6819}
           - !nwn-lib.elv.es,2013-07:struct
             __struct_id: 0

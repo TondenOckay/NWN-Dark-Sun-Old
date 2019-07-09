@@ -73,27 +73,3 @@ WaypointList:
     YOrientation: {type: float, value: 1.0}
     YPosition: {type: float, value: 7.8415}
     ZPosition: {type: float, value: 0.0443}
-  - !nwn-lib.elv.es,2013-07:struct
-    __struct_id: 5
-    Appearance: {type: byte, value: 1}
-    Description:
-      type: cexolocstr
-      value: {}
-    HasMapNote: {type: byte, value: 0}
-    LinkedTo: {type: cexostr, value: ''}
-    LocalizedName:
-      type: cexolocstr
-      str_ref: 14817
-      value:
-        0: SP_SF
-    MapNote:
-      type: cexolocstr
-      value: {}
-    MapNoteEnabled: {type: byte, value: 1}
-    Tag: {type: cexostr, value: azer002}
-    TemplateResRef: {type: resref, value: nw_waypoint001}
-    XOrientation: {type: float, value: 0.0}
-    XPosition: {type: float, value: 15.0261}
-    YOrientation: {type: float, value: -1.0}
-    YPosition: {type: float, value: 15.5632}
-    ZPosition: {type: float, value: 0.6}

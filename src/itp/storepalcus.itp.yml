@@ -7,13 +7,6 @@ MAIN:
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
     ID: {type: byte, value: 5}
-    LIST:
-      type: list
-      value:
-      - !nwn-lib.elv.es,2013-07:struct
-        __struct_id: 0
-        NAME: {type: cexostr, value: Deadly Deals}
-        RESREF: {type: resref, value: deadlydeals01}
     STRREF: {type: dword, value: 6789}
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0

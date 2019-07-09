@@ -54,12 +54,5 @@ MAIN:
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 8}
-        LIST:
-          type: list
-          value:
-          - !nwn-lib.elv.es,2013-07:struct
-            __struct_id: 0
-            RESREF: {type: resref, value: door_fancy001}
-            STRREF: {type: dword, value: 5349}
         STRREF: {type: dword, value: 6738}
     STRREF: {type: dword, value: 6735}

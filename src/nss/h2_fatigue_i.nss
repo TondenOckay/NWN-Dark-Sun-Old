@@ -18,6 +18,7 @@ Adjusted code to deal with changes to timer functions.
 
 #include "h2_fatigue_c"
 #include "h2_core_i"
+#include "dksn_core_i"
 
 const string H2_CURR_FATIGUE = "H2_CURR_FATIGUE";
 const string H2_IS_FATIGUED = "H2_IS_FATIGUED";
@@ -82,6 +83,17 @@ void h2_PerformFatigueCheck(object oPC)
         return;
 
     float fatigueDrop = 1.0 / H2_FATIGUE_HOURS_WITHOUT_REST;
+
+    // No fatigue drop if player is a Thrikreen
+    if (GetRacialType(oPC) == DKSN_RACIAL_TYPE_THRIKREEN) {
+        fatigueDrop = 0.0;
+    }
+
+    // Half fatigue drop if player is a Mul
+    if (GetRacialType(oPC) == DKSN_RACIAL_TYPE_MUL) {
+        fatigueDrop = fatigueDrop / 2.0;
+    }
+
     float currFatigue = GetLocalFloat(oPC, H2_CURR_FATIGUE);
     if (currFatigue > 0.0)
         currFatigue = currFatigue - fatigueDrop;

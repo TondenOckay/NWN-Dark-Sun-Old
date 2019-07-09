@@ -14,10 +14,16 @@ Revision Author: 0100010
 Revision Summary: v1.5
 Adjusted code to deal with changes to timer functions.
 
+Revision Date:      April 28, 2019
+Revision Author:    Nairn (Melanie Graham)
+Revision Summary:   Added custom code to modify hunger/thirst penalty during peak
+                    daylight hours and to double the htf penalty for half giants.
+
 */
 
 #include "h2_hungerthrst_c"
 #include "h2_core_i"
+#include "dksn_core_i"
 
 const string H2_HT_IS_DEHYDRATED = "H2_HT_IS_DEHYDRATED";
 const string H2_HT_IS_STARVING = "H2_HT_IS_STARVING";
@@ -150,6 +156,18 @@ void h2_PerformHungerThirstCheck(object oPC)
     int conScore = GetAbilityScore(oPC, ABILITY_CONSTITUTION, TRUE);
     float thirstDrop = 1.0 / (H2_HT_BASE_THIRST_HOURS + conScore);
     float hungerDrop = 1.0 / H2_HT_BASE_HUNGER_HOURS;
+
+    // Double the hit to thirst if the time is between noon and 7pm and the player is in an HTF area
+    if ((GetTimeHour() > 12 && GetTimeHour() < 8) && (GetLocalInt(GetArea(oPC), "htf_areatype") > 0)) {
+        thirstDrop = thirstDrop * 2.0;
+    }
+
+    // Double the hit to HT if the character played is a halfgiant
+    if (GetRacialType(oPC) == DKSN_RACIAL_TYPE_HALFGIANT) {
+        thirstDrop = thirstDrop * 2.0;
+        hungerDrop = hungerDrop * 2.0;
+    }
+
     int ad = 26 - conScore;
     ad = (ad <= 0 ? 1 : ad);
     float alcoholDrop = 2.0 / ad;
@@ -178,6 +196,7 @@ void h2_PerformHungerThirstCheck(object oPC)
     SetLocalFloat(oPC, H2_HT_CURR_THIRST, currThirst);
     SetLocalFloat(oPC, H2_HT_CURR_HUNGER, currHunger);
     SetLocalFloat(oPC, H2_HT_CURR_ALCOHOL, currAlcohol);
+
     if (H2_HT_DISPLAY_INFO_BARS)
         h2_DisplayHTInfoBars(oPC);
 
