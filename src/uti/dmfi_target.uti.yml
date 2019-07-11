@@ -1,0 +1,381 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 24}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 3}
+Cursed: {type: byte, value: 1}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: |+
+      Use this widget to set a new target for the DMFI wands - mainly for distant players using the scroll bar or for .command skill checks or to set a target for the .appearance command.
+
+      2DA DATA Alphabetically for use with .appearance command.  USE ALL CAPS WHEN SETTING THE APPEARANCE.
+
+      An example:  Target your friend "Joe" with the targetting widget (or else the last target with any DMFI wand is affected) and then type:
+
+      .appearance ARANEA
+
+      That is it.  Here is a full list of options.
+
+      ARANEA
+      ALLIP
+      ARCH_TARGET
+      ARIBETH
+      ASABI_CHIEFTAIN
+      ASABI_SHAMAN
+      ASABI_WARRIOR
+      BADGER
+      BADGER_DIRE
+      BALOR
+      BARTENDER
+      BASILISK
+      BAT
+      BAT_HORROR
+      BEAR_BLACK
+      BEAR_BROWN
+      BEAR_DIRE
+      BEAR_KODIAK
+      BEAR_POLAR
+      BEETLE_FIRE
+      BEETLE_SLICER
+      BEETLE_STAG
+      BEETLE_STINK
+      BEGGER
+      BLOOD_SAILER
+      BOAR
+      BOAR_DIRE
+      BODAK
+      BUGBEAR_A
+      BUGBEAR_B
+      BUGBEAR_CHIEFTAIN_A
+      BUGBEAR_CHIEFTAIN_B
+      BUGBEAR_SHAMAN_A
+      BUGBEAR_SHAMAN_B
+      CAT_CAT_DIRE
+      CAT_COUGAR
+      CAT_CRAG_CAT
+      CAT_JAGUAR
+      CAT_KRENSHAR
+      CAT_LEOPARD
+      CAT_LION
+      CAT_MPANTHER
+      CAT_PANTHER
+      CHICKEN
+      COCKATRICE
+      COMBAT_DUMMY
+      CONVICT
+      COW
+      CULT_MEMBER
+      DEER
+      DEER_STAG
+      DEVIL
+      DOG
+      DOG_BLINKDOG
+      DOG_DIRE_WOLF
+      DOG_FENHOUND
+      DOG_HELL_HOUND
+      DOG_SHADOW_MASTIF
+      DOG_WINTER_WOLF
+      DOG_WORG
+      DOG_WOLF
+      DOOM_KNIGHT
+      DRAGON_BLACK
+      DRAGON_BLUE
+      DRAGON_BRASS
+      DRAGON_BRONZE
+      DRAGON_COPPER
+      DRAGON_GOLD
+      DRAGON_GREEN
+      DRAGON_RED
+      DRAGON_SILVER
+      DRAGON_WHITE
+      DROW_CLERIC
+      DROW_FIGHTER
+      DRUEGAR_CLERIC
+      DRUEGAR_FIGHTER
+      DRYAD
+      DWARF
+      DWARF_NPC_FEMALE
+      DWARF_NPC_MALE
+      ELEMENTAL_AIR
+      ELEMENTAL_AIR_ELDER
+      ELEMENTAL_EARTH
+      ELEMENTAL_EARTH_ELDER
+      ELEMENTAL_FIRE
+      ELEMENTAL_FIRE_ELDER
+      ELEMENTAL_WATER
+      ELEMENTAL_WATER_ELDER
+      ELF
+      ELF_NPC_FEMALE
+      ELF_NPC_MALE_01
+      ELF_NPC_MALE_02
+      ETTERCAP
+      ETTIN
+      FAERIE_DRAGON
+      FAIRY
+      FALCON
+      FEMALE_01
+      FEMALE_02
+      FEMALE_03
+      FEMALE_04
+      FORMIAN_MYRMARCH
+      FORMIAN_QUEEN
+      FORMIAN_WARRIOR
+      FORMIAN_WORKER
+      GARGOYLE
+      GHAST
+      GHOUL
+      GHOUL_LORD
+      GIANT_FIRE
+      GIANT_FIRE_FEMALE
+      GIANT_FROST
+      GIANT_FROST_FEMALE
+      GIANT_HILL
+      GIANT_MOUNTAIN
+      GNOLL_WARRIOR
+      GNOLL_WIZ
+      GNOME
+      GNOME_NPC_FEMALE
+      GNOME_NPC_MALE
+      GOBLIN_A
+      GOBLIN_B
+      GOBLIN_CHIEF_A
+      GOBLIN_CHIEF_B
+      GOBLIN_SHAMAN_A
+      GOBLIN_SHAMAN_B
+      GOLEM_BONE
+      GOLEM_CLAY
+      GOLEM_FLESH
+      GOLEM_IRON
+      GOLEM_STONE
+      GORGON
+      GREY_RENDER
+      GYNOSPHINX
+      HALF_ELF
+      HALF_ORC
+      HALF_ORC_NPC_FEMALE
+      HALF_ORC_NPC_MALE_01
+      HALF_ORC_NPC_MALE_02
+      HALFLING
+      HALFLING_NPC_FEMALE
+      HALFLING_NPC_MALE
+      HELMED_HORROR
+      HEURODIS_LICH
+      HOBGOBLIN_WARRIOR
+      HOOK_HORROR
+      HOBGOBLIN_WIZARD
+      HOUSE_GUARD
+      HUMAN
+      HUMAN_NPC_FEMALE_01
+      HUMAN_NPC_FEMALE_02
+      HUMAN_NPC_FEMALE_03
+      HUMAN_NPC_FEMALE_04
+      HUMAN_NPC_FEMALE_05
+      HUMAN_NPC_FEMALE_06
+      HUMAN_NPC_FEMALE_07
+      HUMAN_NPC_FEMALE_08
+      HUMAN_NPC_FEMALE_09
+      HUMAN_NPC_FEMALE_10
+      HUMAN_NPC_FEMALE_11
+      HUMAN_NPC_FEMALE_12
+      HUMAN_NPC_MALE_02
+      HUMAN_NPC_MALE_01
+      HUMAN_NPC_MALE_03
+      HUMAN_NPC_MALE_04
+      HUMAN_NPC_MALE_05
+      HUMAN_NPC_MALE_06
+      HUMAN_NPC_MALE_07
+      HUMAN_NPC_MALE_08
+      HUMAN_NPC_MALE_09
+      HUMAN_NPC_MALE_10
+      HUMAN_NPC_MALE_11
+      HUMAN_NPC_MALE_12
+      HUMAN_NPC_MALE_13
+      HUMAN_NPC_MALE_14
+      HUMAN_NPC_MALE_15
+      HUMAN_NPC_MALE_16
+      HUMAN_NPC_MALE_17
+      HUMAN_NPC_MALE_18
+      IMP
+      INN_KEEPER
+      INTELLECT_DEVOURER
+      INVISIBLE_HUMAN_MALE
+      INVISIBLE_STALKER
+      KID_FEMALE
+      KID_MALE
+      KOBOLD_A
+      KOBOLD_B
+      KOBOLD_CHIEF_A
+      KOBOLD_CHIEF_B
+      KOBOLD_SHAMAN_A
+      KOBOLD_SHAMAN_B
+      LANTERN_ARCHON
+      LICH
+      LIZARDFOLK_A
+      LIZARDFOLK_B
+      LIZARDFOLK_SHAMAN_A
+      LIZARDFOLK_SHAMAN_B
+      LIZARDFOLK_WARRIOR_A
+      LIZARDFOLK_WARRIOR_B
+      LUSKAN_GUARD
+      MALE_01
+      MALE_02
+      MALE_03
+      MALE_04
+      MALE_05
+      MANTICORE
+      MEDUSA
+      MEPHIT_AIR
+      MEPHIT_DUST
+      MEPHIT_EARTH
+      MEPHIT_FIRE
+      MEPHIT_ICE
+      MEPHIT_MAGMA
+      MEPHIT_OOZE
+      MEPHIT_SALT
+      MEPHIT_STEAM
+      MEPHIT_WATER
+      MINOGON
+      MINOTAUR
+      MINOTAUR_CHIEFTAIN
+      MINOTAUR_SHAMAN
+      MOHRG
+      MUMMY_COMMON
+      MUMMY_FIGHTER_2
+      MUMMY_GREATER
+      MUMMY_WARRIOR
+      NW_MILITIA_MEMBER
+      NWN_AARIN
+      NWN_ARIBETH_EVIL
+      NWN_HAEDRALINE
+      NWN_MAUGRIM
+      NWN_MORAG
+      NWN_NASHER
+      NWN_SEDOS
+      NYMPH
+      OGRE
+      OGRE_CHIEFTAIN
+      OGRE_CHIEFTAINB
+      OGRE_MAGE
+      OGRE_MAGEB
+      OGREB
+      OLD_MAN
+      OLD_WOMAN
+      ORC_A
+      ORC_B
+      ORC_CHIEFTAIN_A
+      ORC_CHIEFTAIN_B
+      ORC_SHAMAN_A
+      ORC_SHAMAN_B
+      OX
+      PENGUIN
+      PLAGUE_VICTIM
+      PROSTITUTE_01
+      PROSTITUTE_02
+      PSEUDODRAGON
+      QUASIT
+      RAKSHASA_BEAR_MALE
+      RAKSHASA_TIGER_FEMALE
+      RAKSHASA_TIGER_MALE
+      RAKSHASA_WOLF_MALE
+      RAT
+      RAT_DIRE
+      RAVEN
+      SHADOW
+      SHADOW_FIEND
+      SHIELD_GUARDIAN
+      SHOP_KEEPER
+      SKELETAL_DEVOURER
+      SKELETON_CHIEFTAIN
+      SKELETON_COMMON
+      SKELETON_MAGE
+      SKELETON_WARRIOR
+      SKELETON_PRIEST
+      SKELETON_WARRIOR_1
+      SKELETON_WARRIOR
+      SKELETON_WARRIOR_2
+      SLAAD_BLUE
+      SLAAD_DEATH
+      SLAAD_GRAY
+      SLAAD_GREEN
+      SLAAD_RED
+      SPECTRE
+      SPHINX
+      SPIDER_DIRE
+      SPIDER_GIANT
+      SPIDER_PHASE
+      SPIDER_SWORD
+      SPIDER_WRAITH
+      STINGER
+      STINGER_CHIEFTAIN
+      STINGER_MAGE
+      STINGER_WARRIOR
+      SUCCUBUS
+      TROLL
+      TROLL_CHIEFTAIN
+      TROLL_SHAMAN
+      UMBERHULK
+      UTHGARD_ELK_TRIBE
+      UTHGARD_TIGER_TRIBE
+      VAMPIRE_FEMALE
+      VAMPIRE_MALE
+      VROCK
+      WAITRESS
+      WAR_DEVOURER
+      WERECAT
+      WERERAT
+      WEREWOLF
+      WIGHT
+      WILL_O_WISP
+      WRAITH
+      WYRMLING_BLACK
+      WYRMLING_BLUE
+      WYRMLING_BRASS
+      WYRMLING_BRONZE
+      WYRMLING_COPPER
+      WYRMLING_GOLD
+      WYRMLING_GREEN
+      WYRMLING_RED
+      WYRMLING_SILVER
+      WYRMLING_WHITE
+      YUAN_TI
+      YUAN_TI_CHIEFTEN
+      YUAN_TI_WIZARD
+      ZOMBIE
+      ZOMBIE_ROTTING
+      ZOMBIE_TYRANT_FOG
+      ZOMBIE_WARRIOR_1
+      ZOMBIE_WARRIOR_2
+
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 1}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: DMFI Target / Appearance Data Widget
+ModelPart1: {type: byte, value: 38}
+PaletteID: {type: byte, value: 53}
+Plot: {type: byte, value: 1}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 13}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 329}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 1}
+Tag: {type: cexostr, value: dmfi_target}
+TemplateResRef: {type: resref, value: dmfi_target}
