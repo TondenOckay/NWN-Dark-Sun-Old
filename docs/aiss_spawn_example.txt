@@ -1,0 +1,78 @@
+///////////////////////////////////////////////
+No WP random location spawning:
+
+iAISS_size_group_1     int    10
+iAISS_size_group_2     int     5
+sAISS_resref_group_1   string  nw_goblina
+sAISS_resref_group_2   string  nw_goblinb
+///////////////////////////////////////////////
+
+///////////////////////////////////////////////
+WP spawning variables in area variables:
+
+iAISS_selectedEvent    int     1
+sAISS_selectedEvent_1  string  fixed
+
+WP for WP spawning:
+
+aiss_spawn_spawn_area_2  (where aiss_spawn_ is the prefix and spawn_area_2 is the tag of the area.
+
+iAISS_size_group_1     int 2
+iAISS_size_group_2     int 1
+sAISS_resref_group_1   string   NW_ZOMBIE01
+sAISS_resref_group_2   string   nw_skeleton
+///////////////////////////////////////////////
+
+///////////////////////////////////////////////
+TRAPS:
+
+iAISS_selectedEvent      int     1
+iAISS_trap_group_size_1  int     30
+sAISS_selectedEvent_1    string  rp_traps
+sAISS_trap_group_level_1 string  minor
+sAISS_trap_group_type_1  string  fire
+///////////////////////////////////////////////
+
+///////////////////////////////////////////////
+Traps spawned to specific WPs:
+
+iAISS_selectedEvent      int    1
+sAISS_selectedEvent_1    string fp_traps
+
+WPs for traps:
+sAISS_trap_level   string   medium
+sAISS_trap_type    string   frost
+///////////////////////////////////////////////
+
+
+///////////////////////////////////////////////
+Mixed random placed creatures and placables:
+
+iAISS_plac_size_group_1      int      50
+iAISS_selectedEvent          int       2
+iAISS_size_group_1           int      20
+sAISS_plac_resref_group_1    string   x0_tres_anyuniq
+sAISS_resref_group_1         string   nw_drowfight001
+sAISS_selectedEvent_1        string   rp_plac
+sAISS_selectedEvent_2        string   wandering
+
+///////////////////////////////////////////////
+
+
+///////////////////////////////////////////////
+Create a placable at a specific WP -- WP variable tells what placable:
+
+iAISS_selectedEvent         int      1
+sAISS_selectedEvent_1       string   fp_plac
+
+wps:
+aiss_plac_spawn_spawn_area_6  (tag)
+
+variables:
+iAISS_plac_size_group_1     int      1
+iAISS_plac_size_group_2     int      1
+sAISS_plac_resref_group_1   string   x0_tres_anyhigh
+sAISS_plac_resref_group_2   string   plc_solblue
+
+///////////////////////////////////////////////
+
