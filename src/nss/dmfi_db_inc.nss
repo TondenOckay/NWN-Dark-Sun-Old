@@ -30,10 +30,13 @@ const int DMFI_DB_TYPE_RESERVED_10  = 10;
 // Only choose one of the following #include lines. Comment out all the others!
 
 // Standard version uses the default Bioware database
-#include "dmfi_db_biow_inc"
+//#include "dmfi_db_biow_inc"
 
 // Alternate version: using Knat's NBDE
 // This provides greatly increased speed, but necessitates occasional flushing to disk.
 // Flushing requires you to add code to Your module OnHeartbeat event.
 // #include "dmfi_db_nbde_inc"
+
+//HCR2 version
+#include "dmfi_db_h2"
 

@@ -13,11 +13,6 @@
 ////////////////////////////////////////////////////////////////////////
 void main()
 {
-    object oUser = GetEnteringObject();
-
-    // do any other module OnClientEnter work here
-    ExecuteScript("x3_mod_def_enter", OBJECT_SELF);
-
     // initialize DMFI
-    dmfiInitialize(oUser);
+    dmfiInitialize(GetEnteringObject());
 }
