@@ -1,6 +1,25 @@
 version: '3'
 services:
-  nwnxee-server:
+  db:
+    hostname: db
+    image: mariadb:10
+    env_file: ${PWD-.}/config/db.env
+    volumes:
+        - mariadbdata:/var/lib/mysql
+    restart: unless-stopped
+# phpmyadmin
+  phpmyadmin:
+    depends_on:
+      - db
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - '8080:80'
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: password 
+  nwserver:
+    hostname: nwserver
     image: nwnxee/unified:latest
     env_file: ${PWD-.}/config/nwserver.env
     stdin_open: true
@@ -8,6 +27,9 @@ services:
     volumes:
       - ${PWD-.}/logs:/nwn/run/logs.0
       - ${PWD-.}/server/:/nwn/home
-    restart: always
+    restart: unless-stopped
     ports:
       - "5121:5121/udp"
+volumes:
+    mariadbdata:
+        driver: local

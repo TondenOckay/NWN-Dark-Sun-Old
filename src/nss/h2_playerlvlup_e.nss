@@ -25,4 +25,3 @@ void main()
         ExportSingleCharacter(oPC);
     h2_RunModuleEventScripts(H2_EVENT_ON_PLAYER_LEVEL_UP);
 }
-

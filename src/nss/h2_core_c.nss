@@ -66,7 +66,7 @@ const float H2_SAVE_PC_LOCATION_TIMER_INTERVAL = 180.0;
 
 //Set the below to true to remove all starting equipment from a newly created character.
 //The default value is FALSE.
-const int H2_STRIP_ON_FIRST_LOGIN = FALSE;
+const int H2_STRIP_ON_FIRST_LOGIN = TRUE;
 
 //Set this value to the interval duration in seconds that you want to export all characters.
 //You should only change this value if you are using a server vault.
@@ -99,7 +99,7 @@ const int H2_FORCE_CLOCK_UPDATE = FALSE;
 const int H2_SHOW_DAY_BEFORE_MONTH_IN_LOGIN = FALSE;
 
 //Set this to the welcome message you want to be sent to all players (and DMs) that log into your module.
-const string H2_TEXT_ON_LOGIN_MESSAGE = "Welcome to HCR2";
+const string H2_TEXT_ON_LOGIN_MESSAGE = "Welcome to Dark Sun";
 
 //Set this to true to indicate that you have read this file and made your adjustments to the above settings
 //according to your module's needs. If this value is false all who login to the server will receive

@@ -61,7 +61,7 @@ RepList:
     __struct_id: 4
     FactionID1: {type: dword, value: 0}
     FactionID2: {type: dword, value: 5}
-    FactionRep: {type: dword, value: 75}
+    FactionRep: {type: dword, value: 50}
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 5
     FactionID1: {type: dword, value: 1}

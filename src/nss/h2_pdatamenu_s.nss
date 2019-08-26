@@ -24,6 +24,7 @@ int StartingConditional()
     int nTokenIndex = GetLocalInt(GetPCSpeaker(), H2_CURRENT_TOKEN_INDEX);
     string menutext = h2_GetModLocalString(H2_PLAYER_DATA_MENU_ITEM_TEXT + IntToString(nTokenIndex));
     SetLocalInt(GetPCSpeaker(), H2_CURRENT_TOKEN_INDEX, nTokenIndex + 1);
+
     if (menutext == "")
         return FALSE;
     SetCustomToken(2147483600 + nTokenIndex, menutext);

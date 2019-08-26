@@ -32,7 +32,7 @@ Added a constant to turn rest trigger or nearby campfire requirement on or off.
 //Recommended Equation: [Minutes per game hour] * 60 * 8; (results in 8 game hours)
 //The default value is 960, which is 8 game hours using 2 RL minutes per game hour.
 //To not require any minimum elapsed time set the value to 0.
-const int H2_MINIMUM_SPELL_RECOVERY_REST_TIME = 960;
+const int H2_MINIMUM_SPELL_RECOVERY_REST_TIME = 1440;
 
 //Amount of hit points per level that is healed when resting after the minimum time above passed.
 //The default value is 1.

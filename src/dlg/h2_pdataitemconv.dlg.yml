@@ -486,7 +486,7 @@ ReplyList:
       type: list
       value: []
     Quest: {type: cexostr, value: ''}
-    Script: {type: resref, value: h2_pdatamenu1_a}
+    Script: {type: resref, value: pdata_findwater}
     Sound: {type: resref, value: ''}
     Text:
       type: cexolocstr

@@ -5,7 +5,8 @@ Appearance: {type: byte, value: 1}
 Comment: {type: cexostr, value: ''}
 Description:
   type: cexolocstr
-  value: {}
+  value:
+    0: ''
 HasMapNote: {type: byte, value: 0}
 LinkedTo: {type: cexostr, value: ''}
 LocalizedName:
@@ -14,8 +15,17 @@ LocalizedName:
     0: H2_COREDATAPOINT
 MapNote:
   type: cexolocstr
-  value: {}
+  value:
+    0: Core Data Point
 MapNoteEnabled: {type: byte, value: 0}
 PaletteID: {type: byte, value: 5}
 Tag: {type: cexostr, value: H2_COREDATAPOINT}
 TemplateResRef: {type: resref, value: h2_coredatapoint}
+VarTable:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Name: {type: cexostr, value: H2_PLAYER_DATA_MENU_ITEM_TEXT1}
+    Type: {type: dword, value: 3}
+    Value: {type: cexostr, value: Find Water}

@@ -7,13 +7,6 @@ MAIN:
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
     ID: {type: byte, value: 5}
-    LIST:
-      type: list
-      value:
-      - !nwn-lib.elv.es,2013-07:struct
-        __struct_id: 0
-        NAME: {type: cexostr, value: Seamless Area Transition}
-        RESREF: {type: resref, value: area_trans}
     STRREF: {type: dword, value: 1082}
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
